@@ -1,0 +1,188 @@
+@media only screen and (max-width: 575.99px) {
+    .main-footer {
+        min-height: 150px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: $background;
+        .left-bottom {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            margin: 5px auto;
+            width: 200px;
+            a {
+                text-decoration: none;
+                img {
+                    border-radius: 50%;
+                    width: 36px;
+                    height: 36px;
+                }
+                span {
+                    display: none;
+                }
+            }
+            .whatsapp {
+                img {
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                }
+                span {
+                    display: none;
+                }
+            }
+        }
+        .right-bottom {
+            height: 50px;
+            line-height: 50px;
+            .name {
+                font-size: 23px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:991.99px) {
+    .main-footer {
+        min-height: 150px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        background-color: $background;
+        .left-bottom {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            margin: 5px auto;
+            width: 200px;
+            a {
+                text-decoration: none;
+                img {
+                    border-radius: 50%;
+                    width: 36px;
+                    height: 36px;
+                }
+                span {
+                    display: none;
+                }
+            }
+            .whatsapp {
+                img {
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                }
+                span {
+                    display: none;
+                }
+            }
+        }
+        .right-bottom {
+            height: 50px;
+            line-height: 50px;
+            .name {
+                font-size: 23px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .main-footer {
+        height: 50px;
+        width: 100%;
+        color: $white;
+        background-color: $background;
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 20px;
+        .left-bottom {
+            display: flex;
+            justify-content: space-around;
+            width: 35vw;
+            a {
+                margin-top: 5px;
+                display: flex;
+                align-items: center;
+                width: 38px;
+                height: 40px;
+                border-radius: 25px;
+                transition: all .5s ease;
+                overflow-x: hidden;
+                padding-left: 5px;
+                text-decoration: none;
+                img {
+                    border-radius: 50%;
+                    width: 36px;
+                    height: 36px;
+                }
+                span {
+                    padding-top: 5px;
+                    display: none;
+                    transition: all .5s ease;
+                }
+                &:hover {
+                    width: 150px;
+                    background-color: white;
+                    span {
+                        display: block;
+                        color: black;
+                    }
+                }
+            }
+            .linkedin {
+                overflow: hidden;
+                white-space: nowrap;
+                &:hover {
+                    width: 200px;
+                    background-color: white;
+                    span {
+                        display: block;
+                        color: black;
+                    }
+                }
+            }
+            .whatsapp {
+                cursor: pointer;
+                margin-top: 5px;
+                display: flex;
+                align-items: center;
+                width: 38px;
+                height: 40px;
+                border-radius: 25px;
+                transition: all .5s ease;
+                overflow-x: hidden;
+                img {
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                }
+                span {
+                    padding-top: 5px;
+                    display: none;
+                    transition: all .5s ease;
+                }
+                &:hover {
+                    width: 125px;
+                    background-color: white;
+                    span {
+                        display: block;
+                        color: black;
+                    }
+                }
+            }
+        }
+        .right-bottom {
+            height: 50px;
+            line-height: 50px;
+            .name {
+                font-size: 23px;
+            }
+        }
+    }
+}
